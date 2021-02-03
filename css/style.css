@@ -25,7 +25,7 @@ main {
     /*
  Polka dot: https://codepen.io/danichk/pen/YyVeXa
  */
-    background: #9efffc;
+    background-color: #9efffc;
   background-image:
     radial-gradient(#fff194 30%, transparent 0),
     radial-gradient(#e596ff 30%, transparent 0);
@@ -34,15 +34,18 @@ main {
 }
 
 .joke{
-    background: white;
+    font-family: 'Potta One', cursive;
+}
+.button{
+    background-color: #9efffc;
     padding: 15px 35px;
     border: 2px solid #A1FF9E;
-    font-family: 'Potta One', cursive;
-    cursor: url(../Images/iconfinder_5_2533009.png), auto;
+    display: inline-block;
+    cursor: crosshair;
 }
 
 header{
-    background: #FF9EA1;
+    background-color: #FF9EA1;
     border-bottom: 2px solid #A1FF9E;
     padding: 20px;
     display: flex;
@@ -65,7 +68,7 @@ nav ul {
 }
 
 footer {
-    background: #FF9EA1;
+    background-color: #FF9EA1;
     border-top: 2px solid #A1FF9E;
     display: grid;
     grid-template-columns: 300px 300px;
@@ -75,4 +78,8 @@ footer {
 
 .credits {
     text-align: right;
+}
+
+.joke p:not(:first-child){
+    display: none;
 }
