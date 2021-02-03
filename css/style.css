@@ -83,3 +83,19 @@ footer {
 .joke p:not(:first-child){
     display: none;
 }
+
+.link{
+    background-color: #e596ff;
+    padding: 15px 35px;
+    border: 2px solid #fff194;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+}
